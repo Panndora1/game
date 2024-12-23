@@ -111,14 +111,14 @@ function update() {
     //score
     updateScore();
     context.fillStyle = "black";
-    context.font = "16px sans-serif"
+    context.font = "14px Montserrat Alternates"
     context.fillText(score, 50, 34);
 
     if (gameOver) {
         context.fillStyle = "white";
-        context.fillRect(boardWidth/6, boardHeight*7/8.4, 260, 36);
+        context.fillRect(boardWidth/7, boardHeight*7/8.4, 265, 36);
         context.fillStyle = "black";
-        context.fillText("Конец игры: нажмите на пробел", boardWidth/5, boardHeight*7/8);
+        context.fillText("Конец игры: нажмите на пробел", boardWidth/6, boardHeight*7/8);
                
     }
 }
