@@ -49,7 +49,7 @@ window.onload = function() {
 
     //load image
     doodlerRightImg = new Image();
-    doodlerRightImg.src = "/img/right.png";
+    doodlerRightImg.src = "./img/right.png";
     doodler.img = doodlerRightImg;
     doodlerRightImg.onload = function() {
         context.drawImage(doodler.img, doodler.x, doodler.y, doodler.width, doodler.height);
