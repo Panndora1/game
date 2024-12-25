@@ -43,7 +43,11 @@ window.onload = function() {
     board.width = boardWidth;
     context = board.getContext("2d");
 
-        //load image
+    //draw doodler
+    //context.fillStyle = "green";
+    //context.fillRect(doodler.x, doodler.y, doodler.width, doodler.height);
+
+    //load image
     doodlerRightImg = new Image();
     doodlerRightImg.src = "/img/right.png";
     doodler.img = doodlerRightImg;
